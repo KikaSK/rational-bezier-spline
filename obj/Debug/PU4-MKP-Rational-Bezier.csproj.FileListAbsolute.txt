@@ -1,0 +1,15 @@
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\bin\Debug\PU4-MKP-Rational-Bezier.exe.config
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\bin\Debug\PU4-MKP-Rational-Bezier.exe
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\bin\Debug\PU4-MKP-Rational-Bezier.pdb
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.csprojAssemblyReference.cache
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\MainWindow.g.cs
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\App.g.cs
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier_MarkupCompile.cache
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier_MarkupCompile.lref
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\MainWindow.baml
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.g.resources
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4_MKP_Rational_Bezier.Properties.Resources.resources
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.csproj.GenerateResource.cache
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.csproj.CoreCompileInputs.cache
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.exe
+C:\Users\Kristína\Documents\Kikin priečinok\AAŠkola\Matfyz\7. semester\MKP\PU4\PU4-MKP-Rational-Bezier\obj\Debug\PU4-MKP-Rational-Bezier.pdb

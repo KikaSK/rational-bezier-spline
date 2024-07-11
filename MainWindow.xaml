@@ -1,0 +1,48 @@
+﻿<Window x:Class="PU4_MKP_Rational_Bezier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PU4_MKP_Rational_Bezier"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightSkyBlue">
+        <Canvas Name="g" HorizontalAlignment="Left" Background="White" Height="351" Margin="6,59,0,0" VerticalAlignment="Top" Width="588" MouseLeftButtonDown="g_MouseLeftButtonDown" MouseRightButtonDown="g_MouseRightButtonDown" MouseLeftButtonUp="g_MouseLeftButtonUp" MouseMove="g_MouseMove"/>
+        <Button x:Name="reset" Content="Reset" FontSize="15"  HorizontalAlignment="Left" Height="54" Margin="603,356,0,0" VerticalAlignment="Top" Background="White" Width="181" Click="reset_Click"/>
+
+        <RadioButton Name="general" Content="General Curve" IsChecked="True" HorizontalAlignment="Left" Height="15" Margin="609,80,0,0" VerticalAlignment="Top" Width="121" FontSize="10" Background="White" VerticalContentAlignment="Center" Checked="general_Checked">
+            <RadioButton.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterX="10" CenterY="10" ScaleX="1.5" ScaleY="1.5"/>
+                </TransformGroup>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="ellipse" Content="Ellipse" HorizontalAlignment="Left" Height="17" Margin="609,122,0,0" VerticalAlignment="Top" Width="120" FontSize="10" Background="White" VerticalContentAlignment="Center" Checked="ellipse_Checked">
+            <RadioButton.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterX="10" CenterY="10" ScaleX="1.5" ScaleY="1.5"/>
+                </TransformGroup>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <RadioButton x:Name="incircle" Content="Incircle" HorizontalAlignment="Left" Height="17" Margin="609,164,0,0" VerticalAlignment="Top" Width="120" FontSize="10" Background="White" VerticalContentAlignment="Center" Checked="incircle_Checked">
+            <RadioButton.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterX="10" CenterY="10" ScaleX="1.5" ScaleY="1.5"/>
+                </TransformGroup>
+            </RadioButton.LayoutTransform>
+        </RadioButton>
+        <TextBox Name="weights" HorizontalAlignment="Left" VerticalContentAlignment="Center" FontSize ="15" Height="44" Margin="123,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="471"/>
+        <Label Content="Weights:" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="30" Margin="46,17,0,0" VerticalAlignment="Top" Width="72"/>
+        <Button Name="update" Content="Update weights" FontSize="15" Background="White" HorizontalAlignment="Left" Height="44" Margin="603,10,0,0" VerticalAlignment="Top" Width="181" Click="update_Click"/>
+        <CheckBox FontSize="10" VerticalContentAlignment="Center" Content="Visualize Computations" HorizontalAlignment="Left" Height="26" Margin="603,249,0,0" VerticalAlignment="Top" Width="118" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">
+            <CheckBox.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterX="0" CenterY="0" ScaleX="1.5" ScaleY="1.5"/>
+                </TransformGroup>
+            </CheckBox.LayoutTransform>
+        </CheckBox>
+        <Slider Name="t_slider" Minimum="0" Maximum="1" TickFrequency="0.01" IsSnapToTickEnabled="False" HorizontalAlignment="Left" Height="20" Margin="603,296,0,0" VerticalAlignment="Top" Width="181" ValueChanged="t_slider_ValueChanged"/>
+        <Label Content="t" HorizontalContentAlignment="Center" FontSize="15" HorizontalAlignment="Left" Height="30" Margin="603,311,0,0" VerticalAlignment="Top" Width="181"/>
+
+    </Grid>
+</Window>
